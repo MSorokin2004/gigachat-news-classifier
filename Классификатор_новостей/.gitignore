@@ -1,4 +1,4 @@
-# Локальные ключи и ссылки во всех подпапках
+# Локальные ключи и настройки
 api_key.txt
 api_key.*.txt
 !api_key.example.txt
@@ -11,20 +11,15 @@ table.txt
 .env.*
 !.env.example
 
-# Python-окружения, браузеры и пользовательские сессии
+# Окружения, журналы и кеши
+.data/
 .env/
 .venv/
 venv/
-.playwright-browsers/
-.data/
-.debug/
-output/
 *.log
-
-# Кеши и отчёты локальных проверок
+.pytest_cache/
 __pycache__/
 *.py[cod]
-.pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .coverage
